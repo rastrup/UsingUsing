@@ -29,7 +29,7 @@ namespace Example
             {
                 await using (var writer = new StreamWriter(stream))
                 {
-                    writer.Write("content");
+                    await writer.WriteAsync("content");
                 }
             }
         }
@@ -38,7 +38,7 @@ namespace Example
         {
             await using var stream = File.OpenWrite("filename");
             await using var writer = new StreamWriter(stream);
-            writer.Write("content");
+            await writer.WriteAsync("content");
         }
     }
 }

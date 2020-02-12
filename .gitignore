@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/src/Example/obj/Debug/netcoreapp3.1/Example.csprojAssemblyReference.cache
+/src/Example/obj/Debug/netcoreapp3.1/Example.assets.cache
+/src/Example/obj/Debug/netcoreapp3.1/Example.AssemblyInfoInputs.cache
+/src/Example/obj/Debug/netcoreapp3.1/Example.AssemblyInfo.cs
+/src/Example/obj
+/.vs
+/src
